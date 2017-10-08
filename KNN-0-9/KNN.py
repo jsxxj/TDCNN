@@ -115,7 +115,7 @@ def handwritingClassTest():
         classsL_num.append(classLabel.count(i))
         
     for j in classifierV:
-        classifier_num.append(classifierValue.count(i))
+        classifier_num.append(classifierValue.count(j))
         
     for i in range(10):
         class_rate.append((round(classifier_num[i]/classsL_num[i],4)))
